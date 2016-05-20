@@ -30,6 +30,13 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <!-- From: file:/Users/shashwat/AndroidStudioProjects/MicroBio/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- From: file:/Users/shashwat/AndroidStudioProjects/MicroBio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/res/values/values.xml -->
+    <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -226,7 +233,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/Users/shashwat/AndroidStudioProjects/MicroBio/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">MicroBio</string>
+    <string name="app_name">OCV Color Blob Detection</string>
     <!-- From: file:/Users/shashwat/AndroidStudioProjects/MicroBio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -238,7 +245,16 @@
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <!-- From: file:/Users/shashwat/AndroidStudioProjects/MicroBio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
